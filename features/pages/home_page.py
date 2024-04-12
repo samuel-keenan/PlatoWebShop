@@ -12,6 +12,7 @@ class HomePage(BasePage):
         "cart": 'xpath',
         #product contains the text for various products
         "product": "//h2[contains(text(),'{}')]",
+        "add to cart": "//h2[contains(text(),'{}')]/ancestor::a/preceding-sibling::div//a[contains(text(),'Add to cart')]",
         "load more": "//a[contains(text(),'Load More')]"
 
     }

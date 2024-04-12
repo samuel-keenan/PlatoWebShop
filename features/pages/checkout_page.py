@@ -13,7 +13,7 @@ class CheckoutPage(BasePage):
         "street address": "//input[@id='billing_address_1']",
         "unit number": "//input[@id='billing_address_2']",
         "city": "//input[@id='billing_city']",
-        "province": "",
+        "province": "//select[@id='billing_state']",
         "postal code": "//input[@id='billing_postcode']",
         "phone": "//input[@id='billing_phone']",
         "email": "//input[@id='billing_email']",
