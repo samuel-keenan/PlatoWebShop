@@ -9,6 +9,9 @@ class HomePage(BasePage):
     # A dictionary of elements for the home page
     locators = {
 
-        "name": 'xpath'
+        "cart": 'xpath',
+        #product contains the text for various products
+        "product": "//h2[contains(text(),'{}')]",
+        "load more": "//a[contains(text(),'Load More')]"
 
-        }
+    }
