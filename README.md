@@ -26,7 +26,7 @@ Contains the test steps. These test steps are written using Gherkin keywords suc
 Example:\
 @when('I do something')\
 def step_definition(context)\
->>do something
+do something
 
 ### Tests
 
@@ -35,9 +35,9 @@ Contains the tests, which are located inside Feature files. These feature files 
 Example:
 
 Scenario: Test a feature\
->Given I have some context\
->When I do something\
->Then something happens
+Given I have some context\
+When I do something\
+Then something happens
 
 ## Other Information
 
