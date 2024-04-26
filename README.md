@@ -7,6 +7,15 @@ A python automation project using Behave and Selenium to test the plato webshop
 - pip install nose
 - pip install allure-behave
 
+## Run Commands
+
+### Run all features
+behave -f allure_behave.formatter:AllureFormatter -o reports/ features
+
+### Generate the Allure report
+allure serve reports/
+
+
 ## Project Structure
 This is a Page Object Model project, and it uses the Behave framework to structure tasks. 
 

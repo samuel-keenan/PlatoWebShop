@@ -23,7 +23,9 @@ def before_step(context, step):
     context.current_step = step.name
 
 def before_feature(context, feature):
+    #starts the webdriver before every feature
     context.driver = webdriver.Chrome()
 
 def after_feature(context, feature):
+    #Kills the webdriver after every feature
     context.driver.quit()
